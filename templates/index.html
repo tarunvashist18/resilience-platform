@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resilience Testing Platform</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ Resilience Testing Platform</h1>
+        <p class="subtitle">Enter a Docker image to test its resilience on Kubernetes</p>
+
+        <form action="/run-test" method="POST">
+            <input
+                type="text"
+                name="docker_image"
+                placeholder="e.g. nginx:latest"
+                required
+            />
+            <button type="submit">▶ Run Test</button>
+        </form>
+    </div>
+</body>
+</html>
