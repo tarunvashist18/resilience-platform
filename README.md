@@ -3,7 +3,7 @@
 A web-based chaos engineering platform that accepts any Docker image, deploys it dynamically to Kubernetes, runs automated chaos experiments, and produces a scored resilience report with live Grafana monitoring.
 
 **Developer:** Ashu Chaudhary  
-**GitHub:** [ZorawarSinghKhan/resilience-platform](https://github.com/ZorawarSinghKhan/resilience-platform)  
+**GitHub:** [a7hu-15/resilience-platform](https://github.com/a7hu-15/resilience-platform)  
 **Docker Hub:** `ashu804/resilience-platform:latest`  
 **Live URL:** `c41d694a9a2269ab9eed-290100455.us-east-1.elb.amazonaws.com`  
 **Stack:** Flask · Docker · Kubernetes · AWS EKS · Chaos Mesh · Prometheus · Grafana  
@@ -171,7 +171,7 @@ resilience-platform/
 
 ### Start the platform
 ```bash
-cd ~/kitchenofthebunny/resilience-platform
+cd ~/resilience-platform
 source venv/bin/activate
 python3 app.py
 ```
