@@ -5,7 +5,7 @@ A web-based chaos engineering platform that accepts any Docker image, deploys it
 **Developer:** Ashu Chaudhary  
 **GitHub:** [a7hu-15/resilience-platform](https://github.com/a7hu-15/resilience-platform)  
 **Docker Hub:** `ashu804/resilience-platform:latest`  
-**Live URL:** `c41d694a9a2269ab9eed-290100455.us-east-1.elb.amazonaws.com`  
+**Live URL:** `c41d694a9a2269ab9eed-290100455.us-east-1.elb.amazonaws.com`  (not working right now though)
 **Stack:** Flask · Docker · Kubernetes · AWS EKS · Chaos Mesh · Prometheus · Grafana  
 
 ---
