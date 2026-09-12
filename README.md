@@ -29,18 +29,7 @@ A web-based chaos engineering platform that accepts any Docker image, deploys it
 
 ## Architecture
 
-```
-Browser → Flask App (port 5001)
-            ├── services/deployer.py     → kubectl apply dynamic YAML
-            ├── services/chaos_runner.py → Chaos Mesh experiments + CPU/memory metrics
-            └── services/scorer.py      → Weighted score calculation engine
 
-Infrastructure (AWS EKS):
-EKS Cluster (us-east-1, 2x t3.small nodes)
-    ├── Chaos Mesh          (chaos-testing namespace)
-    ├── Prometheus          (monitoring namespace)
-    └── Grafana             (monitoring namespace, LoadBalancer exposed)
-```
 
 ---
 
